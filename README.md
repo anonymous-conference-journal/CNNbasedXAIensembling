@@ -1,4 +1,4 @@
-# SegmentXAIensemble
+# CNN-based explanation ensembling
 
 ![Python version](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10%20%7C%203.11-grey.svg?logo=python&logoColor=blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
@@ -9,7 +9,7 @@
 
 <p>
   <img src="./mainidea.png" alt="segmentation-based ensembling of explanations" style="height: 100%; width:100%;" alt>
-  <em>Fig. Overview of segmentation-based ensembling of explanations</em>
+  <em>Fig. Overview of CNN-based ensembling of explanations. The diagram illustrates the process that involves an original image being processed by a black-box classification model, followed by an explainer generating explanations. These explanations, along with masks depicting objects in the original image, are then used to train a CNN-based explanation ensembling. The ensembler's training process results in an aggregated image.</em>
 </p>
 
 
